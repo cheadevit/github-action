@@ -1,0 +1,15 @@
+name: 'GtiHub Action'
+description: "github action for testing"
+author: "devit chea"
+
+inputs:
+  GITHUB_TOKEN:
+   description: "ok"
+   required: true
+  TENOR_TOKEN:
+    description: "ok"
+   required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
